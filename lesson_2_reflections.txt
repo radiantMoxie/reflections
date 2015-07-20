@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, a .git file is created that will contain all
+the metadata associated with the commits you make. You need to do it so Git 
+knows which files you want to track. Initially there are 0 commits in the
+repository since the user always initiates commits with notes.
