@@ -15,3 +15,10 @@ area where things are held and (I imagine) also able to be changed without
 being added to the repository.
 
 I kept not getting the answer, so I'm adding some lines here.
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+You can check what it's in the staging area and only pick the files you want to
+add. So if you had 2 logical changes you were working on, you could commit them
+individually but at the same time.
