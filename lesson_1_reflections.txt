@@ -1,0 +1,65 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+It was nice to have all the stuff that was the same in both files not be 
+present. By reducing the material I had to read through manually, the task 
+seemed much less tedious. I also liked how, despite typing the filenames in 
+lowercase in the cmd line, when diff happened the second file was in all caps, 
+making it more clear which file was which.
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+I know that for my final 142 project, working with Benjamin was great but I 
+felt paranoid that somehow my changes weren't going to be saved properly, or 
+that I would be making changes in the wrong file and then something wouldn't 
+work and I'd be spending time de-buggging something that we'd already figured 
+out, or I'd be adding a feature to code that we'd already rejected. I also have
+had the experience that I started down one path, changed my path, and then 
+wanted to go back to my original thinking, but CTRL-Z only goes so far: what if
+you've also made changes at other points in the code that you actually want to
+keep? Having previous versions would allow me to cut and paste easily only the 
+code that I wanted from before.
+
+What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, like Google 
+docs does?
+
+Pros are that the commits aren't arbitrary and having control over them allows 
+for logical starts and stops. Cons are that manually choosing commits doesn't 
+safeguard from losing power or the sudden descent of malware, which could happen
+right before one was going to manually commit and then a bunch of data are lost.
+
+Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file separately?
+
+I think it mostly has to do with the intended audience for the product. Google 
+Docs has a huge customer base and a huge variety of kinds of documents that can
+be saved. Since most of these users will not be used to or benefitting from the
+time it takes to purposefully make a version of their document, it's best to 
+skip the user input and just save for them. But with something more intentional
+like code writing, it's better to have it on the user to pick when then commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log will give you a list of all the commits on this file, starting with the
+most recent one. It's important to remember that one has to scroll with the 
+arrow keys and not with the mouse. Since Quick Edit has been enabled in the 
+properties menu, highlighted text can be copied and pasted with the right-click
+of the mouse. git diff allows comparison of 2 commits. To get colored output, 
+run git config --global color.ui auto. The id of each item you want to compare
+follows the git diff command. The first four chars of the commit ID are enough 
+for a comparison if it is easier.
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+Since it's easy to go back to previous versions, I would feel very confident 
+going down a new path or doing something creative to solve the problem, even 
+moreso if finding my commits was easier than just using their IDs, which is 
+something that is really time-consuming and non-intuitive.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Honestly, I'd like to start coding something! Something big like a game that
+requires lots and lots of code!
