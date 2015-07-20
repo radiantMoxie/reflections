@@ -4,3 +4,14 @@ When you initialize a repository, a .git file is created that will contain all
 the metadata associated with the commits you make. You need to do it so Git 
 knows which files you want to track. Initially there are 0 commits in the
 repository since the user always initiates commits with notes.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area holds the files that are ready to be committed. The working
+directory holds all the files that we're going to be working on, and the 
+repository holds the commits that have already been made. It's a sorta "on-deck"
+area where things are held and (I imagine) also able to be changed without 
+being added to the repository.
+
+I kept not getting the answer, so I'm adding some lines here.
