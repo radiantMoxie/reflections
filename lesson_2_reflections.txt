@@ -32,3 +32,14 @@ but you're really not sure. For example, an aspect of a videogame that you think
 will be awesome, but sometimes it's not as fun in practice as in concept and you
 want to go back to the game before you added the features. Or they might be 
 helpful if you wanted to just try something crazy and experimental!
+
+How do the diagrams help you visualize the branch structure?
+
+At first I must admit that I was not a fan of Sarah's lessons. They seemed a lot
+less obvious than Caroline's and since I'm wearing headphones she has an odd 
+smacking in her mouth that is quite apparent. However, I'm finding the diagrams
+quite helpful. It gives me a better idea of what exactly is being saved at one 
+time. What really interests me now is why trees play such a big part in computer
+science. Were the early developers very much influenced by their environment, 
+being mostly on the West Coast and seeing lots of trees? Would CS be where it is
+now without the major hubs being on the West Coast?
