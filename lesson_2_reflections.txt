@@ -22,3 +22,13 @@ change?
 You can check what it's in the staging area and only pick the files you want to
 add. So if you had 2 logical changes you were working on, you could commit them
 individually but at the same time.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+Branches would likely be super helpful when experimenting with new features that
+you think might explode your code and/or that you think might be fun/awesome, 
+but you're really not sure. For example, an aspect of a videogame that you think
+will be awesome, but sometimes it's not as fun in practice as in concept and you
+want to go back to the game before you added the features. Or they might be 
+helpful if you wanted to just try something crazy and experimental!
