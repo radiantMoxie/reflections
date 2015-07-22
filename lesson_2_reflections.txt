@@ -43,3 +43,16 @@ time. What really interests me now is why trees play such a big part in computer
 science. Were the early developers very much influenced by their environment, 
 being mostly on the West Coast and seeing lots of trees? Would CS be where it is
 now without the major hubs being on the West Coast?
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+Merging two branches together compares the changes made in the two branches and
+since those two branches may have been written by different people, can be very 
+helpful. It's represented in the diagram and in the vocabulary as merging into 
+the master branch. What I find confusing, though, is how this can be done. The
+example shown in the lesson had ABCDE lines as examples and discluded the lines 
+that either collaborator had explcitly deleted. But if this were code, what if 
+one of the lines added and that got to stay depended on a line that got deleted
+in the commit? Many times code is depending on other code, like with helper 
+functions.
