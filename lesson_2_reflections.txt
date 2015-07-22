@@ -56,3 +56,11 @@ that either collaborator had explcitly deleted. But if this were code, what if
 one of the lines added and that got to stay depended on a line that got deleted
 in the commit? Many times code is depending on other code, like with helper 
 functions.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+Automatic merging might work very well in certain cases, but my concerns raised 
+while answering the previous question still weigh on me. I think a medium ground
+where Git tells us when there are conflicts is the best route. That way there 
+aren't too many surprises along the way! 
