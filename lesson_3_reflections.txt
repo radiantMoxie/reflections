@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+I'd definitely want to do this when I am switching back and forth between computers, like my personal computer and my
+work computer. Also, if I were colloborating with someone else it would be vital that our code was accessible to both of
+us on a shared space and the only way to truly ensure that is to have it on the cloud.
