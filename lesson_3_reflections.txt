@@ -1,5 +1,17 @@
-When would you want to use a remote repository rather than keeping all your work local?
+When would you want to use a remote repository rather than keeping all your work
+local?
 
-I'd definitely want to do this when I am switching back and forth between computers, like my personal computer and my
-work computer. Also, if I were colloborating with someone else it would be vital that our code was accessible to both of
-us on a shared space and the only way to truly ensure that is to have it on the cloud.
+I'd definitely want to do this when I am switching back and forth between 
+computers, like my personal computer and my work computer. Also, if I were 
+colloborating with someone else it would be vital that our code was accessible 
+to both of us on a shared space and the only way to truly ensure that is to have 
+it on the cloud.
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+Since many of the repositories on GitHub are public, I imagine any changes added 
+are not necessarily ones that we want to add to the local repository. Also, 
+maybe things are taking a turn in a different way on the remote because of an 
+intended collaboration but that branch "belongs" to someone else so that having 
+it on your local machine. 
