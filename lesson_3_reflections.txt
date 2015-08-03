@@ -15,3 +15,19 @@ are not necessarily ones that we want to add to the local repository. Also,
 maybe things are taking a turn in a different way on the remote because of an 
 intended collaboration but that branch "belongs" to someone else so that having 
 it on your local machine. 
+
+Describe the differences between forks, clones, and branches. When would you use
+ one instead of another?
+ 
+ Forks copy a repository from GitHub that you don't have the authority to 
+ change, but that it is allowed for you to copy and edit on your own. This way 
+ you can build upon other people's work without actually changing their work and 
+ they have the perogative to add your edits/changes to their repository or not. 
+ 
+ Clones copy a repository. This can be from local to local or GitHub to local. 
+ It will change the original repository if you push and pull between them.
+ 
+ Branches can happen on GitHub or on your local machine when you decide to break
+ off the master and want the branch's parent to go all the way back to the 
+ master. This allows you to explore different ways of doing things by building 
+ up on what you already have.
