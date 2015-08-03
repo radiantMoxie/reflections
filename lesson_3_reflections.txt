@@ -31,3 +31,9 @@ Describe the differences between forks, clones, and branches. When would you use
  off the master and want the branch's parent to go all the way back to the 
  master. This allows you to explore different ways of doing things by building 
  up on what you already have.
+ 
+ What is the benefit of having a copy of the last known state of the remote 
+ stored locally?
+ 
+ The benefit of having a copy of the last known state of the remote stored 
+ locally is that then you can edit it without having to be online.
